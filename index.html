@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Escolar</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="./WhatsApp Image 2024-08-05 at 15.42.30.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .container  {
+            max-width: 1280px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        
+        }
+
+        section .container {
+            display:flex ;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+    section .container {
+        align-items: flex-start;
+    } 
+
+    .enderecos {
+            display: flex;
+            justify-content: space-between; /* Espaço entre os endereços */
+            gap: 20px; /* Espaçamento opcional entre os endereços */
+            text-decoration: none;
+            color: blue;
+    
+    
+    
+        }
+
+        .endereco p {
+
+        font-size: 13px;
+        }
+
+    
+        .endereco {
+            flex: 1;
+            text-decoration: none;
+        
+        }
+        h3 {
+            text-decoration: none;
+        }
+
+    .social-links img {
+        height: 24px;
+    }
+
+    #contact .container {
+        display: block;
+    }
+
+    .contact-methods {
+        display: flex;
+        justify-content: space-between;
+    }
+    </style>
+</head>
+<body>
+    <header>
+ <div class="container"> 
+    <h1> Tutor Escolar</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#tutor" > Sobre a Tutor </a>
+            </li>
+            <li>
+                <a href="#contact" > Contato  </a>
+            </li>
+        
+        </ul>
+    </nav>
+ </div>
+    </header>
+    <section>
+        <div class="container">
+            <img src="./WhatsApp Image 2024-08-05 at 15.42.30.jpeg" alt="simbolo tutor escolar" />
+            <div id="tutor">
+                <h2> Sobre a Tutor</h2>
+                <p>
+                    A Tutor Escolar é uma instituição dedicada ao reforço escolar, comprometida com a excelência acadêmica e o desenvolvimento integral dos seus alunos. 
+
+                </p>
+                <h2> Gestão Experiente</h2>
+                <p> 
+                    A liderança da Tutor Escolar está sob a gestão de uma profissional com ampla experiência nas principais escolas de São Luís. 
+                </p>
+                <h2> Infraestrutura</h2>
+                <p>
+                    A Tutor Escolar possui duas unidades estrategicamente localizadas, proporcionando fácil acesso e conveniência para nossos alunos e seus familiares. 
+                </p>
+                <h2> Compromisso com a Qualidade</h2>
+                <p>
+                    Na Tutor Escolar, acreditamos que cada aluno tem um potencial único e, com o apoio certo, pode alcançar grandes resultados. 
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <div class="container">
+            <h2> Contato</h2>
+        
+            <div class="contact-methods">
+                <div>
+                    <h3> Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Nome do Aluno" required />
+                        <input type="email" placeholder="Email do Responsável" required />
+                        <input type="tel" placeholder="Telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" > Enviar </button>
+                    </form>
+                </div>
+                <div>
+                    <h3> Nosso Instagram </h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.instagram.com/tutorescolarslz?igsh=MTVjYzV0ZmtjbDhnbw=" title="Acompanhe nosso Instagram" target="_blank"> </a>
+                                <img src="./images/instagram.png" alt="logo do instagram">
+                                
+
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3> Venha até nós</h3>
+                    <div class="enderecos">
+                        <div class="endereco">
+                            <p><strong>Sede Calhau</strong></p>
+                            <p>Avenida Luis Eduardo Magalhães, 550<br> Centro Comercial Pátio Calhau<br> São Luís - MA</p>
+                        </div>
+                        <div class="endereco">
+                            <p><strong>Sede Ponta do Farol</strong></p>
+                            <p>Rua dos Guarás, 03<br> Ponta do Farol<br> São Luís - MA</p>
+                        </div>
+                    </div>
+                
+                
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Tutor Escolar - Todos os direitos reservados - 2022.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
